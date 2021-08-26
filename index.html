@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Website pessoal para exemplificar trabalhos do João Pedro">
+  <meta name="keywords" content="Portfolio">
+  <meta name="author" content="João Pedro">
+
+  <!-- imports css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- icone -->
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="https://scontent.fpoa34-1.fna.fbcdn.net/v/t1.6435-9/87261719_2370272109930365_5015065030425575424_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nBCoHwocESgAX9yyUo8&_nc_oc=AQlLJH_5-dwlzGh0JWuPCeE7acqzSwhCIaRzoMpRIAkCDtShOhXKZNi9ZQPZ8jAh4kpcGjQspO0PFNBruG9AecWJ&_nc_ht=scontent.fpoa34-1.fna&oh=5e481bb391de4c10b429c4717a9bc1ae&oe=614C077B">
+
+  <!-- imports js -->
+  <script src="script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- titulo -->
+  <title>JoãoPedro!</title>
+</head>
+
+<body>
+
+  <header>
+
+    <!-- navbar -->
+    <nav class="navbar">
+      <h1><a href="index.html" class="logo"><i class="fas fa-terminal" style="color:#576fe5"></i> joãopedro</a></h1>
+      <ul class="nav">
+        <li class="li-inicio active"><a class="nav-inicio active" href="#inicio">Início</a></li>
+        <li class="li-habi"><a class="nav-habi" href="#habilidades">Habilidades</a></li>
+        <li class="li-port"><a class="nav-port" href="#portifolio">Portfolio</a></li>
+        <li class="li-sobre"><a class="nav-sobre" href="#sobre">Sobre</a></li>
+      </ul>
+      <svg class="botao-menu" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="12" y="20" width="24" height="2" fill="var(--white)"></rect><rect x="20" y="26" width="16" height="2" fill="var(--white)"></rect></svg>
+    </nav>
+
+    <!-- seção do começo -->
+    <div class="row sec-dis">
+      <div class="heading">
+        <h3><svg class="emoji" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.24446 6.07725C3.87186 5.63873 4.81763 5.72283 5.38095 6.18805L4.73486 5.24893C4.21492 4.50738 4.40114 3.70509 5.14334 3.18447C5.88554 2.66585 7.98866 4.06018 7.98866 4.06018C7.46405 3.31128 7.56216 2.36215 8.31104 1.83686C9.05991 1.31356 10.0931 1.49445 10.6177 2.24468L17.5725 12.0697L16.6861 20.6633L9.28884 17.9654L2.83665 8.39869C2.30736 7.64512 2.49024 6.60588 3.24446 6.07725Z" fill="#EF9645"></path> <path d="M1.79877 11.5431C1.79877 11.5431 1.04322 10.4418 2.14517 9.68689C3.24579 8.93199 4.00067 10.0326 4.00067 10.0326L7.50542 15.1441C7.62623 14.9425 7.75838 14.7436 7.90589 14.5474L3.04155 7.45423C3.04155 7.45423 2.28667 6.35358 3.38795 5.59868C4.48857 4.84378 5.24345 5.94442 5.24345 5.94442L9.81879 12.6171C9.98899 12.4782 10.1632 12.3387 10.3427 12.2019L5.03854 4.46532C5.03854 4.46532 4.28366 3.36468 5.38495 2.60978C6.48557 1.85488 7.24045 2.95552 7.24045 2.95552L12.5446 10.6908C12.7395 10.5713 12.9324 10.4678 13.126 10.3584L8.16819 3.1284C8.16819 3.1284 7.41331 2.02775 8.51393 1.27285C9.61455 0.517946 10.3694 1.61859 10.3694 1.61859L15.6115 9.26372L16.4085 10.4264C13.106 12.6918 12.7916 16.9536 14.6785 19.7055C15.0556 20.2562 15.6062 19.8791 15.6062 19.8791C13.3416 16.5758 14.033 12.864 17.3362 10.5993L16.3624 5.7255C16.3624 5.7255 15.9987 4.4413 17.2822 4.07686C18.5663 3.71309 18.9307 4.99729 18.9307 4.99729L20.0554 8.33728C20.5012 9.66153 20.9758 10.9811 21.6039 12.2293C23.3773 15.7535 22.318 20.1334 18.9741 22.4274C15.3265 24.9284 10.3401 23.9986 7.83848 20.3516L1.79877 11.5431Z" fill="#FFDC5D"></path> <path d="M8.00934 21.3517C5.33956 21.3517 2.64175 18.657 2.64175 15.9903C2.64175 15.6216 2.37143 15.3236 2.00233 15.3236C1.63324 15.3236 1.30685 15.6216 1.30685 15.9903C1.30685 19.9903 4.00467 22.685 8.00934 22.685C8.37844 22.685 8.67679 22.359 8.67679 21.9904C8.67679 21.6217 8.37844 21.3517 8.00934 21.3517Z" fill="#737380"></path> <path d="M4.67212 22.6651C2.66978 22.6651 1.33489 21.3301 1.33489 19.3278C1.33489 18.9587 1.03654 18.6603 0.667445 18.6603C0.298348 18.6603 0 18.9587 0 19.3278C0 21.9976 2.00234 24 4.67212 24C5.04122 24 5.33956 23.7016 5.33956 23.3325C5.33956 22.9634 5.04122 22.6651 4.67212 22.6651ZM16.0187 1.30627C15.6503 1.30627 15.3512 1.6053 15.3512 1.97374C15.3512 2.34218 15.6503 2.6412 16.0187 2.6412C18.6885 2.6412 21.3583 5.03672 21.3583 7.9809C21.3583 8.34934 21.6573 8.64836 22.0257 8.64836C22.3941 8.64836 22.6931 8.34934 22.6931 7.9809C22.6931 4.30051 20.0234 1.30627 16.0187 1.30627Z" fill="#737380"></path> <path d="M19.3559 0C18.9875 0 18.6885 0.270674 18.6885 0.638684C18.6885 1.00669 18.9875 1.33337 19.3559 1.33337C21.3583 1.33337 22.6651 2.81674 22.6651 4.63879C22.6651 5.0068 22.9915 5.30548 23.3606 5.30548C23.7297 5.30548 24 5.0068 24 4.63879C24 2.08072 22.0257 0 19.3559 0Z" fill="#737380"></path></svg> 
+          Olá! Seja bem-vindo ao meu website!
+        </h3>
+        <h1>Me chamo <span>João Pedro</span></h1>
+        <h4>Dev Front-end & Designer</h4>
+        <a href="mailto:kystershg@gmail.com">Contate-me</a>
+      </div>
+      <div class="header-img">
+        <img src="https://cdn.glitch.com/fd90cf5e-f49a-4424-91ff-90ccdb060a10%2Fcinema.svg?v=1629836763041">
+      </div>
+    </div>
+
+    <!-- seção habilidades -->
+    <section class="section habilidades">
+      <div class="habilidade-container">
+        <div class="habilidade">
+          <div class="corpo">
+          <i class="fas fa-paint-brush"></i> 
+          <h1>Design</h1><br>
+          <h3>Conhecimento</h3>
+          <p>Web, Logos, Thumbs e Comercial</p><br>
+          <h3>Programas</h3>
+          <p>Figma, Adobe Photoshop e Adobe Color</p>
+        </div>
+      </div>
+
+      <div class="habilidade">
+         <div class="corpo">
+          <i class="fas fa-coffee"></i> 
+          <h1>Programação</h1><br>
+          <h3>Conhecimento</h3>
+          <p>HTML, CSS, JS, Node.js e JQuery</p><br>
+          <h3>Programas</h3>
+          <p>Visual Studio Code, Bootstrap e Github</p>
+        </div>
+       </div>
+        
+      </div>
+    </section>
+
+    <!-- seção portfolios -->
+    <section class="section portfolios "> 
+      <div class="portfolio-container">
+        <div class="portfolio">
+          <div class="img gcminis">
+            <h1>GC Minis</h1>
+            <p>Website para uma revendedora de veículos em miniatura</p>
+            
+            <a class="botao-portfolio" href="https://gc-minis.glitch.me/" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="img perfilcard">
+            <h1>Perfil Card</h1>
+            <p>Um simples template de perfil card</p>
+            
+            <a class="botao-portfolio" href="https://perfil-card.glitch.me/" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="img loginpage">
+            <h1>Página de Login</h1>
+            <p>Um simples template de uma página de login</p>
+            
+            <a class="botao-portfolio" href="https://github.com/soufunck/login-page" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="img cafe">
+            <h1>Café</h1>
+            <p>Um site para louvar o divino e saboroso café</p>
+            
+            <a class="botao-portfolio" href="https://github.com/soufunck/cafe" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="img block">
+            <h1>Bloqueador</h1>
+            <p>Código que bloqueia o inspencionar elemento no navegador</p>
+
+            <a class="botao-portfolio" href="https://github.com/soufunck/block-inspect-element" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="img galeria">
+            <h1>Galeria de Fotos</h1>
+            <p>Um projeto antigo que tinha feito para mim.</p>
+
+            <a class="botao-portfolio" href="https://github.com/soufunck/personal-website" target="_blank">&#xab; Visitar &#xbb;</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- seção projetos -->
+    <section class="section sobre ">
+      
+      <div class="sobre-content">
+        <h2>Sobre</h2>
+        <p>
+          Sou um desenvolvedor <strong>ambicioso</strong>, estou sempre focado em trazer o mais próximo<br>
+          do que me foi <strong>proposto</strong> para o projeto como se fosse para mim. Sou organizado com 
+          <strong>horários</strong>, entrego os projetos na <strong>data marcada</strong>. Meus códigos são 
+          <strong>organizado</strong> que, caso o cliente tenha vontade de mudar algo, ou eu esteja trabalhando 
+          em equipe, seja <strong>entendível</strong>, <strong>rápido</strong> e <strong>fácil</strong>.
+        </p>
+        <p>
+          Consigo <strong>trabalhar</strong> em equipe perfeitamente. Além de receber <strong>experiência</strong>, 
+          posso passar o que eu sei para os demais profissionais que estarão comigo. Estou disposto a receber <strong>críticas</strong> 
+          e <strong>opiniões</strong>, desde que elas sejam <strong>construtivas</strong>. Nunca é ruim aprender com outras pessoas vendo 
+          de outro lado do projeto :D
+        </p>
+      </div>
+    </section>
+
+  </header>
+
+     <!-- footer -->
+     <div class="footer">
+      <p>By: João Pedro</p>
+    </div>
+
+</body>
+
+</html>
