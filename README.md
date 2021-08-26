@@ -1,2 +1,5 @@
-# website
-Meu website pessoal. Código aberto :D
+# 🎆 Website
+Um website para uso pessoal. Apenas um template.
+
+# 🖥️ <a href="https://joaopedro-website.glitch.me/">Demo</a>
+Uma preview do projeto
